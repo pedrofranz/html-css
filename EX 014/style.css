@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(to left, rgb(181, 245, 245), 
+    rgb(0, 255, 255));
+    background-color: rgb(181, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    background-color: aqua;
+}
+
+h2{
+    background-color: rgb(255, 255, 255);
+}
+
+.basico{
+    color: rgb(0, 255, 13);
+}
+.intermediario{
+    color: rgb(255, 238, 0);
+}
+.avançado{
+    color: red;
+}
+
+p{
+    text-align: center;
+}
+h1#Principal{
+    color: whitesmoke;
+    background-color: rgb(5, 1, 255);
+    text-align: center;
+}

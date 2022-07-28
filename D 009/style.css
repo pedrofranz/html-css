@@ -1,0 +1,15 @@
+@charset "UTF - 8";
+
+body {
+
+    background-color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+h1 {
+    color: whitesmoke;
+}
+p {
+    color: whitesmoke;
+}

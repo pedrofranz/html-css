@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bolinha.ico" type="image/x-icon">
+    <title>Imagens dinamicas</title>
+    
+
+</head>
+<body>
+    <h1>Imagen dinamicas </h1>
+    <h2>abra esse site em vários dispositivos</h2>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotog.png" type="image/png">
+         <img src="imagens/fotogg.png" alt="imagem flexível">
+
+    </picture>
+
+    <h1><strong>Reproduzindo audio</strong></h1>
+    <p> <strong> musiquinha do choper </p> </strong>
+    <audio preload="metadata" autoplay controls >
+        <source src="midia/chopper.mpeg" type="audio/mpeg">
+    </audio>
+    <p>se quiser fazer o download da música
+       <a href="midia/chopper.mpeg"> clique aqui </a>
+    </p>
+
+    <h1>Vídeos</h1>
+    <p>Veja o carrinho&#x2764;</p>
+
+    <video controls width="560" height="315" poster="imagens/douminha totoso.jfif">
+        <source src="midia/carrinho.mp4" type="video/mp4">
+    </video>
+    <p>se tiver interesse em intalar 
+        <a href="midia/carrinho.mp4"> clique aqui </a>
+    </p>
+    <h1>Caloteando o youtube </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/deSfIdbD930" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
